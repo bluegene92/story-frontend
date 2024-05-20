@@ -1,10 +1,10 @@
 # Children's story Frontend with Vue 3
 
-This application allows users to create and maintain recipes. Please visit https://github.com/OC-ComputerScience/recipe-backend for the backend repository.
+This application allows users to create and maintain recipes. Please visit https://github.com/DylanQuitsGum/story_backend for the backend repository.
 
 ## Project Setup
 
-1. Clone the project into your **XAMPP/xamppfiles/htdocs/recipeapp** directory.
+1. Clone the project into your **XAMPP/xamppfiles/htdocs/storyapp** directory.
 
 ```
 git clone https://github.com/OC-ComputerScience/recipe-frontend.git
