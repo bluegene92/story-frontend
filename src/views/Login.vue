@@ -77,7 +77,8 @@ function closeSnackBar() {
 
 <template>
   <v-container>
-    <div id="body">
+    <div>Login Page</div>
+    <!-- <div id="body">
       <v-card class="rounded-lg elevation-5">
         <v-card-title class="headline mb-2">Login </v-card-title>
         <v-card-text>
@@ -172,6 +173,6 @@ function closeSnackBar() {
           </v-btn>
         </template>
       </v-snackbar>
-    </div>
+    </div> -->
   </v-container>
 </template>

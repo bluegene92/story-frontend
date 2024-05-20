@@ -1,4 +1,4 @@
-# Children's story Frontend with Vue 3
+# Children's Story Frontend with Vue 3
 
 This application allows users to create and maintain recipes. Please visit https://github.com/DylanQuitsGum/story_backend for the backend repository.
 
