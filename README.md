@@ -7,7 +7,7 @@ This application allows users to create and maintain recipes. Please visit https
 1. Clone the project into your **XAMPP/xamppfiles/htdocs/storyapp** directory.
 
 ```
-git clone https://github.com/OC-ComputerScience/recipe-frontend.git
+git clone https://github.com/DylanQuitsGum/story-frontend
 ```
 
 2. Install the project.
