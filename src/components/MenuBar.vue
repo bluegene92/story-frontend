@@ -40,7 +40,7 @@ function logout() {
           contain
         ></v-img>
       </router-link>
-      <v-toolbar-title class="title"> Story AI </v-toolbar-title>
+      <v-toolbar-title class="title"> DreamCraft </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn class="mx-2" :to="{ name: 'home' }"> Stories </v-btn>
       <v-btn class="mx-2" :to="{ name: 'register' }"> Register </v-btn>
