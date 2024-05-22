@@ -1,6 +1,6 @@
 <style scoped>
 .container {
-  background: url("./../assets/bg2.png");
+  background: url("./../assets/bg4.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -9,14 +9,6 @@
 .card {
   width: 400px;
   padding: 32px 16px;
-}
-
-.glass {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
 }
 
 .text-field {
@@ -86,6 +78,7 @@ function closeSnackBar() {
   <v-container class="container d-flex align-center justify-center" fluid>
     <v-card class="card rounded-md elevation-1">
       <v-card-title class="headline mb-2">Register </v-card-title>
+
       <v-card-text>
         <v-text-field
           v-model="user.firstName"

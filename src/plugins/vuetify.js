@@ -6,8 +6,5 @@ import "vuetify/styles";
 import { createVuetify } from "vuetify";
 
 export default createVuetify({
-  theme: {
-    disable: true,
-  },
   treeShake: true,
 });

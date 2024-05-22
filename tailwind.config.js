@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  // purge: ["./public/**/*.html", "./src/**/*.vue"],
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
+  important: true, // Add this line
 };
