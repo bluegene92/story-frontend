@@ -55,6 +55,38 @@
 .how-to {
   background: #d2fbe1;
 }
+
+footer {
+  color: #c9c9c9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #1d0a00;
+  padding: 128px 64px 32px 64px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 0 auto;
+}
+
+.footer-content > div {
+  width: 300px;
+  padding: 16px 0;
+}
+
+.footer-content li {
+  padding: 8px 0;
+}
+
+.footer-bottom {
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 </style>
 
 <template>
@@ -205,5 +237,47 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <div class="footer-content">
+        <div>
+          <h1 class="text-h3 font-weight-bold">DreamCraft</h1>
+          <div>
+            <h2>Get in Touch</h2>
+            <img
+              src="./../assets/corgi.png"
+              style="transform: scaleX(-1)"
+              alt="corgi"
+              width="200"
+            />
+          </div>
+        </div>
+
+        <div>
+          <h2>Section Links</h2>
+
+          <ul>
+            <li>Home</li>
+            <li>How It Works</li>
+            <li>Sample Stories</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Social Media</h2>
+          <ul>
+            <li>Facebook</li>
+            <li>Youtube</li>
+            <li>TikTok</li>
+            <li>Instagram</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p style="margin: 0">© 2024 DreamCraft. All Rights Reserved.</p>
+        <p style="margin: 0">Made with ❤️ by the Dream Team</p>
+      </div>
+    </footer>
   </v-container>
 </template>
