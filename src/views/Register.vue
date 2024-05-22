@@ -11,6 +11,18 @@
   padding: 32px 16px;
 }
 
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.text-field {
+  background-color: white;
+}
+
 .login-btn {
   width: 100%;
   background-color: #0093e9;
@@ -78,24 +90,28 @@ function closeSnackBar() {
         <v-text-field
           v-model="user.firstName"
           label="First Name"
+          variant="outlined"
           required
         ></v-text-field>
 
         <v-text-field
           v-model="user.lastName"
           label="Last Name"
+          variant="outlined"
           required
         ></v-text-field>
 
         <v-text-field
           v-model="user.email"
           label="Email"
+          variant="outlined"
           required
         ></v-text-field>
 
         <v-text-field
           v-model="user.password"
           label="Password"
+          variant="outlined"
           required
         ></v-text-field>
       </v-card-text>

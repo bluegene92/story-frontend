@@ -75,12 +75,14 @@ function closeSnackBar() {
         <v-text-field
           v-model="user.email"
           label="Email"
+          variant="outlined"
           required
         ></v-text-field>
 
         <v-text-field
           v-model="user.password"
           label="Password"
+          variant="outlined"
           required
         ></v-text-field>
       </v-card-text>
