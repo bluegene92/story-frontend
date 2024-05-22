@@ -2,7 +2,6 @@
 .container {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
 }
 
 .landing {
@@ -28,10 +27,18 @@
 }
 
 .section {
-  padding: 32px 64px;
+  padding: 128px 32px;
   display: flex;
-  flex-direction: row;
-  gap: 64px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section > div {
+  max-width: 600px;
+}
+
+.how-to {
+  background: #d2fbe1;
 }
 </style>
 
@@ -52,19 +59,17 @@
       </v-card>
     </section>
 
-    <br />
-    <br />
-
     <section>
       <div class="section">
         <div>
-          <p>Features</p>
-          <h1 class="text-h4">Why Choose Our Stories?</h1>
+          <h1 class="text-h3">Why Choose Our Stories?</h1>
         </div>
+        <br />
+        <br />
 
         <div>
           <ul>
-            <li class="tw-drop-shadow-sm color-blue">
+            <li class="text-green-700">
               <h2>Personalized Tales</h2>
               <p>Tailored to your child's name, interests, and more.</p>
             </li>
@@ -90,6 +95,34 @@
       </div>
     </section>
 
-    <section><div class="section"></div></section>
+    <section class="how-to">
+      <div class="section">
+        <div>
+          <h1 class="text-h3">How It Works</h1>
+        </div>
+        <br />
+        <br />
+
+        <div>
+          <ul>
+            <li>
+              <h2>Step 1</h2>
+              <p>Enter your child's name and role</p>
+            </li>
+            <br />
+            <li>
+              <h2>Step 2</h2>
+              <p>Select the genre, countries, theme, and languages</p>
+            </li>
+            <br />
+
+            <li>
+              <h2>Step 3</h2>
+              <p>Generate and enjoy your unique story!</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </v-container>
 </template>
