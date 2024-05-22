@@ -30,3 +30,7 @@
 li {
   list-style-type: none;
 }
+
+.drop-shadow-1 {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
