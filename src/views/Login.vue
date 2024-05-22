@@ -1,6 +1,6 @@
 <style scoped>
 .container {
-  background: url("./../assets/bg1.png");
+  background: url("./../assets/bg5.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;

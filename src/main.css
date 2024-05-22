@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  background: red;
+}
+
+.glass {
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(242, 242, 242, 0.1);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(56, 50, 50, 0.3);
+}
+
+.glass::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+  z-index: 0;
+}
+
+li {
+  list-style-type: none;
+}
