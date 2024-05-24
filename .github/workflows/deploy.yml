@@ -36,7 +36,7 @@ jobs:
           echo "$EC2_USER"
           echo "$EC2_HOST"
           echo "$SSH_PRIVATE_KEY" > key.pem
-          chmod 600 key.pem
-          rsync -avz -e "ssh -i key.pem -o StrictHostKeyChecking=no" dist/ $EC2_USER@$EC2_HOST:$TARGET_DIR
-            
-          rm key.pem
+        #   chmod 600 key.pem
+        #   rsync -avz -e "ssh -i key.pem -o StrictHostKeyChecking=no" dist/ $EC2_USER@$EC2_HOST:$TARGET_DIR
+
+        #   rm key.pem
