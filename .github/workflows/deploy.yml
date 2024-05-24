@@ -32,6 +32,7 @@ jobs:
           TARGET_DIR: ${{ secrets.TARGET_DIR }}
 
         run: |
-          echo "$SSH_PRIVATE_KEY" > key.pem
+          cat $SSH_PRIVATE_KEY
+          cat $SSH_PRIVATE_KEY > key.pem
           chmod 600 key.pem
           rsync -avz -e "ssh -i key.pem -o StrictHostKeyChecking=no" dist/ $EC2_USER@$EC2_HOST:$TARGET_DIR
