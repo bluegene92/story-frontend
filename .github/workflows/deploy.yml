@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - dt-feature-github-ci
 
 jobs:
   deploy:
